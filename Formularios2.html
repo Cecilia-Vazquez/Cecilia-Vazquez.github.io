@@ -5,24 +5,53 @@
     </head>
     <body>
         <h2> Formularios HTML</h2>
-        <!--
-        <form action="https://www.w3schools.com/action_page.php" method="GET">
-        -->
-        <form action="https://tecweb-acominf.c9users.io/envio.php" method="POST">
+        
+        <!--   <form action="https://www.w3schools.com/action_page.php" method="GET">
+          -->
+     <form action="https://tecweb-acominf.c9users.io/envio.php" method="POST">
+      
+       +
             <fieldset>
                     <legend> Datos Personales </legend>
-        
+        <label>
             <p>Nombre:<input type="text" name="nombreUsuario">
-            <p>Contrasea: <input type="password" name="Contraseña">
+        </label>
+        <br>
+        <label for="idCont"> Contraseña:</label> 
+             <input type="password" name="Contraseña" id="idContraseña">
             <p>Edad:<input type="number" name="Edad">
-
-            </fieldset>
+                <br>
+                Foto de perfil:
+                <input type="file" name = "foto">
+                <br>
+                Fecha De Nacimiento:
+                <input type="date" name="fecha">
+                <br>
+                Estado de Origen:
+                <select name="Estado">  <!-- combobox-->
+                    <option value="SLP"> San Luis Potosi </option>
+                    <option value="CDM"> Ciudad De Mexico</option>
+                    <option value="EM"> Estado De Mexico</option>
+                    <option value="M"> Monterrey</option>
+                </select>
+                <br>
+                Materias Cursadas:
+                <select name="Materias " multiple>
+                        <option value="COM" > COMPILADORES </option>
+                        <option value="BDD"> BASE DE DATOS</option>
+                        <option value="TW"> TECNOLOGIAS WEB</option>
+                        <option value="SI"> SISTEMAS </option>
+                </select>
+                <br>
+                Comentarios:
+                <textarea  placeholder="Escribe tus comentarios"></textarea>
+                                </fieldset>
             <fieldset>
                 <legend> Preferencias </legend>
                 <p>Sistema Operativo:
-                        <p>Windows <input type="checkbox" name= "and">
-                Linux <input type="checkbox" name= "lin">
-                OSx <input type="checkbox" name= "osx">
+                        <p>Windows <input type="checkbox" name= "win" value="v1">
+                Linux <input type="checkbox" name= "lin"value="v1">
+                OSx <input type="checkbox" name= "osx"value="v1">
                 <p>Telefono
                         <p> Android <input type="radio" name ="andr">
                 OSx <input type="radio" name ="Os">
