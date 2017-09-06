@@ -1,0 +1,11 @@
+/* Selector universal*/
+*{ 
+    font-family: Arial ;
+}
+.subtitulo {
+    color: rebeccapurple;
+}
+
+#intro{
+    font-weight: bold;
+}
