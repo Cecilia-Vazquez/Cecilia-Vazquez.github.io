@@ -9,3 +9,13 @@
 #intro{
     font-weight: bold;
 }
+
+div  p {
+    color: purple;
+
+}
+article{
+    border: 1px solid pink;
+    margin: 30px 20px 10px 5px;
+    padding: 50px ;
+}
