@@ -1,0 +1,12 @@
+body {
+    
+    background: rgba(156, 39, 176, 0.16); 
+    font-family: arial;
+
+}
+main{
+    width: 480px;
+    margin: auto;
+    border-style: solid;
+   
+}
