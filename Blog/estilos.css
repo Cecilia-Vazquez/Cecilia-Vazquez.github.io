@@ -10,3 +10,6 @@ main{
     border-style: solid;
    
 }
+footer > P {
+    border:1px solid purple;
+}
