@@ -11,5 +11,10 @@ main{
    
 }
 footer > P {
-    border:1px solid purple;
+   
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 20px;
+
 }
