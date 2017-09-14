@@ -1,0 +1,27 @@
+#contenedor {
+    background: white;
+    margin: 25px;
+    width: 500px;
+    float: left;
+}
+#contenedor2 {
+    background: #EAE4BB;
+    margin: 25px;
+    width: 300px;
+    right: 600;
+    float: left;
+}
+#Encabezado{
+    position:absolute;
+    width: 875px;
+    right: 300;
+ 
+    float: initial;
+    background-color:  #899CD6;
+}
+#Pie {
+   
+    width: 875px;
+    float: unset;
+    background-color:  #899CD6;
+}
