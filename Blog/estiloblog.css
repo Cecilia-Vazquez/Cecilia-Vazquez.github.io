@@ -1,0 +1,28 @@
+body{
+    background-image: url(fondo4.jpg) ;
+}
+h1{
+    color: #110C05;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 60px;
+}
+h2{
+    color: #110C05;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 30px;
+
+}
+
+#centro{
+    background-color: rgba(190, 70, 250, 0.89);
+    position: absolute;
+    left: 500px;
+}
+#menu{
+    background-color: #AE3EF3;
+    position: absolute ;
+    left: 20px;
+    right: 900px;
+}
