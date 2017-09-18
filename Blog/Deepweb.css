@@ -1,0 +1,16 @@
+body{
+    background-image: url(fondo4.jpg) ;
+}
+h1{
+    color: #110C05;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 60px;
+}
+
+
+#intro{
+    background-color:rgba(190, 70, 250, 0.89);
+    position: absolute ;
+    
+}
