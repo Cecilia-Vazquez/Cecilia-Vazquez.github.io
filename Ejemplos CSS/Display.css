@@ -1,0 +1,17 @@
+a:hover{
+    color: white;
+
+}
+a{
+
+background-color: #68629E;
+padding: 20px;
+text-decoration: none;
+font-size: 30px;
+font-family: Verdana;
+display: inline-block;
+}
+
+a:active{
+color:#F505F5;
+}
