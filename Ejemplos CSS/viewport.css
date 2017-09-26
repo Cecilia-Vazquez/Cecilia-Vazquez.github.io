@@ -1,0 +1,14 @@
+@media screen and (min-width: 600px){
+    .contnedor{
+        background-color: yellow;
+
+    }
+
+}
+@media screen and (max-width: 600px){
+    .contnedor{
+        background-color: #359049;
+        
+    }
+
+}
