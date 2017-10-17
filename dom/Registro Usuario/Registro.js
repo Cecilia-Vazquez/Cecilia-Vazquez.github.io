@@ -1,4 +1,9 @@
 var formulario = document.getElementById('registro');
+var mensaje= document.getElementById('mensaje');
+
+formulario.addEventListener('blur', function(evento){
+verificaNombre();
+});
 formulario.addEventListener('submit', function(evento){
     if (!verificaNombre()||
     verificaContraseña()||
@@ -16,8 +21,8 @@ function verificaNombre()
         }
         else
             {
-            
-            }
+            mensaje.innerHTML(":,v");
+            } 
    
   
 }
