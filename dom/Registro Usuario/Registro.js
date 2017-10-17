@@ -9,8 +9,17 @@ formulario.addEventListener('submit', function(evento){
 });
 function verificaNombre()
 {
-    if(formulario.nombre.value.
-    return false;
+    var expReg= /[a-z]/i;
+    if (expReg.test(formulario.nombre.value.charAt(0)))
+        {
+            return true;
+        }
+        else
+            {
+            
+            }
+   
+  
 }
 function verificaContraseña()
 {
