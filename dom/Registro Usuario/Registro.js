@@ -1,8 +1,13 @@
 var formulario = document.getElementById('registro');
 var mensaje= document.getElementById('mensaje');
 
-formulario.addEventListener('blur', function(evento){
+formulario.addEventListener('blur', function(){
 verificaNombre();
+});
+formulario.addEventListener('keyup', function()
+{
+    mensaje.innerHTML += formulario.contra.value.length;
+
 });
 formulario.addEventListener('submit', function(evento){
     if (!verificaNombre()||
@@ -21,7 +26,7 @@ function verificaNombre()
         }
         else
             {
-            mensaje.innerHTML(":,v");
+            mensaje.innerHTML("El nombre debe iniciar con una letra");
             } 
    
   
