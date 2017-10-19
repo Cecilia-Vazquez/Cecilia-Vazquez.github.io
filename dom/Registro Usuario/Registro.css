@@ -1,0 +1,25 @@
+body{
+    background: #EEDAF1;
+    color: purple;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+
+}
+head{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.nivel-debil{
+    color: #6900FF;
+}
+.nivel-mediano{
+    color: #D7FF00;
+}
+.nivel-seguro{
+    color: #2A00FF;
+}
